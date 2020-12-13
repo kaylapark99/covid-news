@@ -1,0 +1,292 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 !important;
+    font-family: bebas-neue-pro, sans-serif;
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100%;
+}
+
+.nav {
+    background-color: #000027;
+    color: #ebebff;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.clicked {
+    opacity: 1 !important;
+}
+
+#logo {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%,0);
+}
+
+.nav-container {
+    position: fixed;
+    height: 100vh;
+    width: inherit;
+    max-width: inherit;
+}
+
+.nav-contents {
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+.nav-contents li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.nav-contents li a {
+    color: #ebebff;
+    opacity: 0.5;
+}
+
+.nav-contents li a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.death-count {
+    position: absolute;
+    bottom: 35vh;
+}
+
+.death-count p {
+    padding: 0 50px;
+    font-size: 20px;
+}
+
+#count-dead {
+    transition: 0.3s;
+}
+
+.hide {
+    display: none;
+}
+
+.pressed {
+    opacity: 0.5;
+}
+
+
+.covid-header h2 {
+    font-size: 70px;
+    border-bottom: 10px solid #00004e;
+    color: #00004e;
+}
+
+.covid-header p {
+    font-size: 25px;
+}
+
+.covid-update-data {
+    padding-top: 70px;
+}
+
+.global, .countries {
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.global h3, .countries h3 {
+    color: #4545ba;
+    font-size: 60px;
+}
+
+.covid-stats {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.countries input {
+    background-color: #d8d8ff;
+    border-radius: 2px;
+}
+
+.toggle-global, .toggle-country {
+    color: #6262ff;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.toggle-global:hover, .toggle-country:hover {
+    color: #2727ff;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.country-search {
+    max-width: 80%;
+}
+
+#countries-list, .search {
+    width: 100%;
+}
+
+#countries-list {
+    padding: 0;
+    list-style: none;
+    background-color: #DCDCDC;
+}
+
+#countries-list li {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#countries-list li:hover {
+    background-color: #A9A9A9;
+}
+
+.content {
+    padding: 40px;
+}
+
+.page-header h1 {
+    font-size: 100px;
+    border-bottom: 10px solid #000027;
+}
+
+.featured, .latest {
+    padding: 50px 0;
+}
+
+.featured {
+    border-bottom: 3px solid #000027;
+}
+
+.featured h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.middle-article {
+    border-right: 2px solid #A9A9A9;
+    border-left: 2px solid #A9A9A9;
+}
+
+
+.hover-text {
+    position: absolute;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    color: white;
+}
+
+.article-text-container {
+    height: 95%;
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.hover-text a {
+    color: #ebebff;
+    font-weight: 600;
+    position: absolute;
+    bottom: 5%;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    left: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #00004e;
+}
+
+.article-hover:hover .overlay{
+    opacity: 0.8;
+}
+
+.featured-img {
+    width: 100%;
+}
+
+.latest {
+    margin-top: 50px;
+    border-right: 3px solid #000027;
+    padding: 0 15px 0 0;
+}
+
+.latest-article {
+    border-bottom: 2px solid #A9A9A9;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.latest h2, .videos h2 {
+    margin-left: 15px;
+    font-size: 50px;
+}
+
+.latest-content {
+    padding-right: 25px;
+    height: 100%;
+}
+
+.left-article {
+    border-right: 2px solid #A9A9A9;
+}
+
+.article-link a {
+    color: black;
+    font-size: 25px;
+}
+
+.article-author {
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+.article-image img {
+    padding: 15px 0;
+    width: 100%;
+}
+
+.article-date {
+    opacity: 0.5;
+}
+
+.vid-tweets {
+    margin-top: 50px;
+}
+
+.featured-vid {
+    margin-left: 15px;
+    border-bottom: 2px solid #A9A9A9;
+}
+
+.featured-vid iframe {
+    padding: 15px;
+}
+
+.twitter {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 15px;
+
+}
