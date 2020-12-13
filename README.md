@@ -1,1 +1,1 @@
-# covid-news
+# covid19-news-theatre
