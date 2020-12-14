@@ -240,6 +240,7 @@ body {
     border-bottom: 2px solid #A9A9A9;
     padding-bottom: 30px;
     margin-top: 50px;
+    overflow-x: hidden;
 }
 
 .latest h2, .vid-tweets h2 {
