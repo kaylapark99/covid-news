@@ -50,7 +50,7 @@ body {
 
 .nav-contents li {
     list-style: none;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .nav-contents li a {
@@ -70,7 +70,7 @@ body {
 
 .death-count p {
     padding: 0 50px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 #count-dead {
@@ -87,13 +87,13 @@ body {
 
 
 .covid-header h2 {
-    font-size: 70px;
+    font-size: 60px;
     border-bottom: 10px solid #00004e;
     color: #00004e;
 }
 
 .covid-header p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .covid-update-data {
@@ -107,12 +107,12 @@ body {
 
 .global h3, .countries h3 {
     color: #4545ba;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .covid-stats {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .countries input {
@@ -122,7 +122,7 @@ body {
 
 .toggle-global, .toggle-country {
     color: #6262ff;
-    font-size: 25px;
+    font-size: 22px;
     padding-right: 10px;
 }
 
